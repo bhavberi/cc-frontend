@@ -24,6 +24,7 @@ import {
     GroupOutlined,
     AdminPanelSettingsOutlined,
     InfoOutlined,
+    BugReportOutlined,
 } from "@mui/icons-material";
 import MainContainer from "components/MainContainer";
 // }}}
@@ -69,6 +70,12 @@ const publicRoutes = [
         path: "/calendar",
         icon: CalendarTodayOutlined,
         component: <Public.Calendar />,
+    },
+    {
+        title: "Bug Report Form",
+        path: "/bugform",
+        icon: BugReportOutlined,
+        component: <Public.BugForm />,
     },
 ];
 
